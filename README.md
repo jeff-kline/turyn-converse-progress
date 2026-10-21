@@ -5,8 +5,8 @@ Jeffery Kline · version 0.1.0 (release candidate, not yet archived)
 A symmetric Turyn pair of odd length $t$ is a pair of symmetric $\pm1$
 sequences, one with a zero at the origin, whose periodic autocorrelations add
 to $q=2t-1$ at shift zero and to zero at every other shift. Turyn constructed
-such pairs whenever $q$ is a prime power and asked whether the converse holds.
-The converse is still open.
+such pairs whenever $q$ is a prime power and asked whether the converse holds;
+it remains open.
 
 This paper proves restrictions on the symmetries such a pair can have and
 combines them with classical multiplier theorems. Two results are central:
@@ -17,9 +17,9 @@ combines them with classical multiplier theorems. Two results are central:
   by inverting the $C_3$ factor unless $H$ is trivial.
 
 Both apply when $t$ is squarefree, where earlier conductor tests say nothing.
-With exact quotient tests, norm-lattice certificates, earlier results, and a
-ray-class transport that excludes an infinite family $q=13p$, the arguments
-collected here exclude 655 of the 663 parameters $q<10000$ that are not prime powers, satisfy
+Together with exact quotient tests, norm-lattice certificates, earlier
+results, and a ray-class transport that excludes an infinite family $q=13p$,
+they exclude 655 of the 663 parameters $q<10000$ that are not prime powers, satisfy
 $q\equiv1\pmod 4$, and are sums of two squares. Eight remain open: 3965, 4745,
 5185, 5525, 6409, 7565, 7685, 8245. A mod-16 identity reduces 3965 from 198 to
 132 unknown signs but does not settle it.
@@ -31,17 +31,20 @@ excluded many composite orders below 2000 by quotient methods. Multiplier
 theorems (Delsarte–Goethals–Seidel), field descent and contraction counting are
 classical. New here:
 
-- **Index-two prime-fibre theorem (principal result).** A parity identity
-  forces many constant fibres, while the energy identity permits too few.
-- **Inverting a $C_3$ factor (principal result).** This holds for every odd
-  abelian cofactor, with no cyclicity or size hypothesis.
+- **Index-two prime fibres (principal result).** If a prime $p\ge7$ divides
+  $t$ exactly once, no pair is fixed by the squares acting on the
+  $p$-component. The proof plays a mod-2 support identity against the energy
+  identity.
+- **Inverting a $C_3$ factor (principal result).** On $H\times C_3$ with $H$
+  odd abelian, no pair is fixed by inverting $C_3$ unless $H$ is trivial. No
+  cyclicity or size hypothesis is needed.
 - **Multiplier kernels.** The exact stabilizer of a pair injects modulo
   $\mathrm{rad}(t)$, which forces full conductor $F(4t,q)=4t$ and a sharp cofactor threshold.
 - **Ray-class transport.** One certified incompatibility at $q=2561$ is carried to
   infinitely many $q=13p$.
 - **Mod-16 reconstruction.** In a stated arithmetic class, one fibre
   determines another uniquely. Our prior-art search here is incomplete.
-- **Bounds new as stated.** An odd-index averaging bound, an all-index
+- **Further bounds.** An odd-index averaging bound, an all-index
   prime-power bound with a nonvanishing step, and a full-unit fibre bound.
 - **Coverage.** A 2499-row ledger with an explicit eight-order frontier.
 
@@ -52,9 +55,9 @@ method; the odd-index fibre bound is a short corollary of standard counting.
 The 655 exclusions measure coverage; 644 come from the uniform criteria, 11
 from earlier or case-specific certificates, and many orders were excluded
 before. "New" means not found in the sources we checked; priority is
-unresolved for every result. The paper's Section 8
-and Table 2 of the [paper](paper/main.pdf) give the comparison and the
-sources we could not obtain, chiefly Arasu–Ma (2001).
+unresolved for every result. Section 8 and Table 2 of
+the [paper](paper/main.pdf) give the comparisons and list the sources we could
+not obtain, chiefly Arasu–Ma (2001).
 
 ## Earlier work
 
