@@ -19,7 +19,7 @@ versions remain immutable.
 
 | Version | Tag | Commit | DOI | Date | Status |
 |---|---|---|---|---|---|
-| 0.1.0 | — | — | — | — | Candidate in preparation |
+| 0.1.0 | `v0.1.0` | `2ac74ae889b0827ea54f9a35b9a17472e64a5f70` | [`10.5281/zenodo.23545780`](https://doi.org/10.5281/zenodo.23545780) | 2026-10-21 | ADMITTED; provider bytes verified; the tag keeps its candidate wording |
 
 ## Post-release corrections
 

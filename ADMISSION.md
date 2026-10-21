@@ -1,14 +1,20 @@
 # Admission record
 
-**Current verdict: NOT YET ADMITTED**
+**Current verdict: ADMITTED**
 
-**Release state: CANDIDATE**
+**Release state: ADMITTED**
 
 **Version:** 0.1.0
 
-**Immutable tag:** `v0.1.0` (not yet created)
+**Immutable tag:** `v0.1.0` (tag object `17d9b8d60db943c1b7f15eb63da760a303960164`)
 
-**Version DOI:** none yet. Zenodo will mint one when the GitHub Release is published.
+**Tagged commit:** `2ac74ae889b0827ea54f9a35b9a17472e64a5f70`
+
+**Version DOI:** [`10.5281/zenodo.23545780`](https://doi.org/10.5281/zenodo.23545780)
+
+**Concept DOI:** [`10.5281/zenodo.23545779`](https://doi.org/10.5281/zenodo.23545779)
+
+**Admission date:** 2026-10-21
 
 This is the live gate record for release 0.1.0. It applies Jeff Kline's
 [public research standard](https://jeff-kline.github.io/posts/research-program/index.html),
@@ -33,14 +39,31 @@ exclusion at 5185 known so far assumes GRH and is not counted.
 
 | Gate | Status | Evidence |
 |---|---|---|
-| P1 prior work and credit | PARTIAL | Paper §8 and Table 2: a bounded comparison with exact theorem numbers, all 17 local citations verified (`audit/CLAIMS-AUDIT.md`). Open: Arasu–Ma 2001 (publisher HTTP 403), the full 1991 Mann paper, and a targeted search for the mod-16 reconstruction. These are named in the paper, and "new" is defined as "not found in the checked sources". |
-| A1 claim and artifact consistency | PASS (candidate) | Two mathematical audits of the assembled manuscript found 0 errors; all minor fixes are applied. A claims audit found 8 mismatches, all fixed. An equivalence check of the edits found 0 broken hunks. The title, abstract, introduction, README and CITATION agree. Dispositions: `audit/DISPOSITIONS.md`. |
-| R1 release and stewardship | PARTIAL | GPL-3.0-only license, `CITATION.cff`, `CORRECTIONS.md` and `MANIFEST.sha256` are present. A clean-copy build and `verify/verify_coverage.py` (exit 0; output matches the expected file) both pass, and `certificates/check_certificates.py` passes 11/11. Still to come: the tag, the Zenodo archive and DOI, provider byte identity, and the site listing. |
+| P1 prior work and credit | PARTIAL | Paper §8 and Table 2 give a bounded comparison with exact theorem numbers; all 17 local citations were verified (`audit/CLAIMS-AUDIT.md`). Named residuals: Arasu–Ma 2001 (publisher HTTP 403), the full 1991 Mann paper, and a targeted prior-art search for the mod-16 reconstruction. "New" means "not found in the checked sources". |
+| A1 claim and artifact consistency | PASS | Two mathematical audits of the assembled manuscript found 0 errors, and their minor fixes are applied. A claims audit found 8 mismatches, all fixed. An equivalence check of the edits found 0 broken hunks. The title, abstract, introduction, README, CITATION, Zenodo record and site entry agree. |
+| R1 release and stewardship | PASS | GPL-3.0-only; `CITATION.cff`; `CORRECTIONS.md`; `MANIFEST.sha256`. A clean-copy build passes, `verify/verify_coverage.py` exits 0 with byte-identical expected output, and `certificates/check_certificates.py` passes 11/11. Tag `v0.1.0`. The Zenodo archive (GitHub integration), downloaded, is byte-identical to the pinned GitHub tag zipball: 1,221,964 bytes, SHA-256 `0341d4e0ed4a8e7d5fbb249e6043d474493aad1ca0bd999bf167e7dbf6421aed`, provider MD5 `7349c82f25be66dcc7dc04616b437e17`. Site listing published (see below). |
+
+## Archive record
+
+- Zenodo record 23545780: title, creator, version `v0.1.0`, date 2026-10-21,
+  license GPL-3.0, resource type software, related identifier the `v0.1.0` tree.
+- The archived-state release audit passed 11/11 on the unchanged tagged tree.
+- A secondary `git archive` of the tag has SHA-256
+  `b75e4e00938fcba33030942116f279074909b9582df39bd6eb940aba1ca7aeae`. It is a
+  determinism check only and is not expected to equal the provider zipball.
+
+## Public listing
+
+The landing page at https://jeff-kline.github.io lists this release as
+"Progress on Turyn's converse". The title links to this repository and a
+separate link gives the version DOI.
 
 ## Residual risks
 
 - All reviews are process-separated AI reviews, not expert peer review.
-- The certificate for 7929 is an inherited predicate that needs numpy. The C73 half
-  of 8905 uses a recorded enumeration (`certificates/README.md`).
-- The verifier checks that the uniform criteria agree with the stated theorems and the
-  data. It does not re-prove the theorems.
+- The certificate for 7929 is an inherited predicate that needs numpy, and the
+  C73 half of 8905 uses a recorded enumeration (`certificates/README.md`).
+- The verifier checks that the uniform criteria agree with the stated theorems
+  and the data. It does not re-prove the theorems.
+- The files in tag `v0.1.0` describe themselves as a release candidate. That
+  wording is kept because the tag is immutable.

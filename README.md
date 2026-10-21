@@ -1,6 +1,9 @@
 # Progress on Turyn's converse: general symmetry theorems and coverage below 10,000
 
-Jeffery Kline · version 0.1.0 (release candidate, not yet archived)
+Jeffery Kline · version 0.1.0 · archived at [doi:10.5281/zenodo.23545780](https://doi.org/10.5281/zenodo.23545780)
+(all versions: [10.5281/zenodo.23545779](https://doi.org/10.5281/zenodo.23545779)).
+The files in tag `v0.1.0` still describe themselves as a release candidate;
+that tag is the admitted release.
 
 A symmetric Turyn pair of odd length $t$ is a pair of symmetric $\pm1$
 sequences, one with a zero at the origin, whose periodic autocorrelations add
