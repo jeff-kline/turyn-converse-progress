@@ -1,0 +1,266 @@
+{
+ "q": 2665,
+ "t": 1333,
+ "nodes": [
+  {
+   "P": 31,
+   "fiber": 43,
+   "group_size": 6,
+   "nonzero_orbits": 5,
+   "raw_per_side_per_augmentation": 5153632,
+   "status": "NOT_EVALUATED_RAW_CAP"
+  },
+  {
+   "P": 43,
+   "fiber": 31,
+   "group_size": 14,
+   "nonzero_orbits": 3,
+   "raw_per_side_per_augmentation": 2744,
+   "status": "COMPLETE",
+   "spectrum": [],
+   "census": {
+    "q": 2665,
+    "t": 1333,
+    "modulus": 43,
+    "fiber": 31,
+    "group": [
+     1,
+     2,
+     4,
+     8,
+     11,
+     16,
+     21,
+     22,
+     27,
+     32,
+     35,
+     39,
+     41,
+     42
+    ],
+    "orbits": [
+     [
+      0
+     ],
+     [
+      1,
+      2,
+      4,
+      8,
+      11,
+      16,
+      21,
+      22,
+      27,
+      32,
+      35,
+      39,
+      41,
+      42
+     ],
+     [
+      3,
+      5,
+      6,
+      10,
+      12,
+      19,
+      20,
+      23,
+      24,
+      31,
+      33,
+      37,
+      38,
+      40
+     ],
+     [
+      7,
+      9,
+      13,
+      14,
+      15,
+      17,
+      18,
+      25,
+      26,
+      28,
+      29,
+      30,
+      34,
+      36
+     ]
+    ],
+    "sizes": [
+     1,
+     14,
+     14,
+     14
+    ],
+    "multiplication_tensor": [
+     [
+      [
+       1,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       1,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       1,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       1
+      ]
+     ],
+     [
+      [
+       0,
+       1,
+       0,
+       0
+      ],
+      [
+       14,
+       3,
+       6,
+       4
+      ],
+      [
+       0,
+       6,
+       4,
+       4
+      ],
+      [
+       0,
+       4,
+       4,
+       6
+      ]
+     ],
+     [
+      [
+       0,
+       0,
+       1,
+       0
+      ],
+      [
+       0,
+       6,
+       4,
+       4
+      ],
+      [
+       14,
+       4,
+       3,
+       6
+      ],
+      [
+       0,
+       4,
+       6,
+       4
+      ]
+     ],
+     [
+      [
+       0,
+       0,
+       0,
+       1
+      ],
+      [
+       0,
+       4,
+       4,
+       6
+      ],
+      [
+       0,
+       4,
+       6,
+       4
+      ],
+      [
+       14,
+       6,
+       4,
+       3
+      ]
+     ]
+    ],
+    "joins": [
+     {
+      "augmentation": [
+       8,
+       51
+      ],
+      "raw_A": 2744,
+      "raw_B": 2744,
+      "bounded_A": 153,
+      "bounded_B": 154,
+      "distinct_A_squares": 153,
+      "solutions": 0
+     },
+     {
+      "augmentation": [
+       36,
+       37
+      ],
+      "raw_A": 2744,
+      "raw_B": 2744,
+      "bounded_A": 154,
+      "bounded_B": 154,
+      "distinct_A_squares": 154,
+      "solutions": 0
+     },
+     {
+      "augmentation": [
+       44,
+       27
+      ],
+      "raw_A": 2744,
+      "raw_B": 2744,
+      "bounded_A": 202,
+      "bounded_B": 163,
+      "distinct_A_squares": 202,
+      "solutions": 0
+     },
+     {
+      "augmentation": [
+       48,
+       19
+      ],
+      "raw_A": 2744,
+      "raw_B": 2744,
+      "bounded_A": 154,
+      "bounded_B": 145,
+      "distinct_A_squares": 154,
+      "solutions": 0
+     }
+    ],
+    "solutions": [],
+    "normalized_count": 0,
+    "signed_count": 0
+   },
+   "cpu_seconds": 0.03743800000000008
+  }
+ ],
+ "common_spectrum": [],
+ "excluded": true
+}

@@ -1,0 +1,52 @@
+Independent verification of coverage below 10000
+parameters q = 1 mod 4, 5 <= q < 10000: 2499
+prime powers: 642; sum of two squares: 1305; failing two-squares: 1194
+eligible (not prime power, sum of two squares): 663
+predicate agreement with CSV (prime_power, sum_two_squares, eligible): all 2499 rows agree
+
+criterion agreement with CSV flags, all 2499 rows
+  criterion            agree disagree    fires
+  O                     2499        0      701
+  FC                    2499        0      214
+  T1                    2499        0      453
+  T2                    2499        0     1190
+  T4                    2499        0     1044
+  T5                    2499        0      588
+  QE                    2499        0     1828
+  C2_uniform            2499        0       95
+  Full_prime_fibre      2499        0      490
+  Fixed_fibre           2499        0      900
+  Doubling_origin       2499        0     1413
+
+union of the criteria over eligible q:
+  below 10000: 644
+  below 2000: 122
+additional recorded exclusions read from CSV status: 11
+eligible - union - additional: 8 members: [3965, 4745, 5185, 5525, 6409, 7565, 7685, 8245]
+  equals the eight stated frontier parameters: True
+  additional recorded exclusions are all eligible and outside the union: True
+union with the quotient corollary of T1 added: 644 (unchanged)
+prime-power control: 642 prime powers, criteria firing at any: 0
+
+  [ok] predicates match CSV
+  [ok] criterion O matches CSV
+  [ok] criterion FC matches CSV
+  [ok] criterion T1 matches CSV
+  [ok] criterion T2 matches CSV
+  [ok] criterion T4 matches CSV
+  [ok] criterion T5 matches CSV
+  [ok] criterion QE matches CSV
+  [ok] criterion C2_uniform matches CSV
+  [ok] criterion Full_prime_fibre matches CSV
+  [ok] criterion Fixed_fibre matches CSV
+  [ok] criterion Doubling_origin matches CSV
+  [ok] prime-power control
+  [ok] quotient corollary of T1 does not change the union
+  [ok] every CSV EXCLUDED_SELECTED_UNION row is in the union and conversely
+  [ok] |union| = 644
+  [ok] |union below 2000| = 122
+  [ok] |eligible| = 663
+  [ok] 11 additional recorded exclusions
+  [ok] frontier = the eight stated parameters
+
+RESULT: ALL CHECKS PASSED

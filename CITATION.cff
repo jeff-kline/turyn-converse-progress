@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "Please cite this work using the version metadata in this file."
+title: "Progress on Turyn's converse: general symmetry theorems and coverage below 10,000"
+type: software
+version: 0.1.0
+authors:
+  - family-names: Kline
+    given-names: Jeffery
+repository-code: "https://github.com/jeff-kline/turyn-converse-progress"
+url: "https://github.com/jeff-kline/turyn-converse-progress"
+license: GPL-3.0-only
+abstract: >-
+  General symmetry theorems for symmetric Turyn pairs, including an index-two
+  prime-fibre obstruction and an obstruction to inverting a C_3 factor on every
+  odd abelian cofactor, combined with multiplier theorems, exact quotient tests
+  and certificates. The collected arguments exclude 655 of the 663
+  non-prime-power parameters q < 10000 with q = 1 mod 4 that are sums of two
+  squares; eight remain open, the smallest 3965. The converse remains open.
+keywords:
+  - Turyn pairs
+  - negacyclic conference matrices
+  - relative difference sets
+  - multiplier theorem
+  - Hadamard matrices
+references:
+  - type: software
+    title: "Toward a converse of Turyn's theorem: obstructions to Turyn pairs at composite orders"
+    authors:
+      - family-names: Kline
+        given-names: Jeffery
+    version: 0.2.0
+    doi: 10.5281/zenodo.21776269

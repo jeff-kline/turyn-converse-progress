@@ -1,0 +1,1009 @@
+{
+  "status": "COMPLETE_COLORED_FACTOR_PILOT_PENDING_SEPARATE_AUDIT",
+  "q": 2561,
+  "factor_orbits_each": 56,
+  "enumeration_bound": 100,
+  "checked_parity_Weil_positive_controls": 252,
+  "reports": [
+    {
+      "bound": 60,
+      "uncolored_survivors": 518608,
+      "colored_types_left": 235,
+      "per_augmentation": [
+        {
+          "augmentation": [
+            -44,
+            -25
+          ],
+          "surviving_allocations": 509205
+        },
+        {
+          "augmentation": [
+            -44,
+            25
+          ],
+          "surviving_allocations": 509205
+        },
+        {
+          "augmentation": [
+            -40,
+            -31
+          ],
+          "surviving_allocations": 509200
+        },
+        {
+          "augmentation": [
+            -40,
+            31
+          ],
+          "surviving_allocations": 509200
+        },
+        {
+          "augmentation": [
+            40,
+            -31
+          ],
+          "surviving_allocations": 509200
+        },
+        {
+          "augmentation": [
+            40,
+            31
+          ],
+          "surviving_allocations": 509200
+        },
+        {
+          "augmentation": [
+            44,
+            -25
+          ],
+          "surviving_allocations": 509205
+        },
+        {
+          "augmentation": [
+            44,
+            25
+          ],
+          "surviving_allocations": 509205
+        }
+      ]
+    },
+    {
+      "bound": 70,
+      "uncolored_survivors": 33008,
+      "colored_types_left": 835,
+      "per_augmentation": [
+        {
+          "augmentation": [
+            -44,
+            -25
+          ],
+          "surviving_allocations": 22800
+        },
+        {
+          "augmentation": [
+            -44,
+            25
+          ],
+          "surviving_allocations": 22800
+        },
+        {
+          "augmentation": [
+            -40,
+            -31
+          ],
+          "surviving_allocations": 22800
+        },
+        {
+          "augmentation": [
+            -40,
+            31
+          ],
+          "surviving_allocations": 22800
+        },
+        {
+          "augmentation": [
+            40,
+            -31
+          ],
+          "surviving_allocations": 22800
+        },
+        {
+          "augmentation": [
+            40,
+            31
+          ],
+          "surviving_allocations": 22800
+        },
+        {
+          "augmentation": [
+            44,
+            -25
+          ],
+          "surviving_allocations": 22800
+        },
+        {
+          "augmentation": [
+            44,
+            25
+          ],
+          "surviving_allocations": 22800
+        }
+      ]
+    },
+    {
+      "bound": 80,
+      "uncolored_survivors": 2208,
+      "colored_types_left": 1015,
+      "per_augmentation": [
+        {
+          "augmentation": [
+            -44,
+            -25
+          ],
+          "surviving_allocations": 0
+        },
+        {
+          "augmentation": [
+            -44,
+            25
+          ],
+          "surviving_allocations": 0
+        },
+        {
+          "augmentation": [
+            -40,
+            -31
+          ],
+          "surviving_allocations": 0
+        },
+        {
+          "augmentation": [
+            -40,
+            31
+          ],
+          "surviving_allocations": 0
+        },
+        {
+          "augmentation": [
+            40,
+            -31
+          ],
+          "surviving_allocations": 0
+        },
+        {
+          "augmentation": [
+            40,
+            31
+          ],
+          "surviving_allocations": 0
+        },
+        {
+          "augmentation": [
+            44,
+            -25
+          ],
+          "surviving_allocations": 0
+        },
+        {
+          "augmentation": [
+            44,
+            25
+          ],
+          "surviving_allocations": 0
+        }
+      ]
+    },
+    {
+      "bound": 90,
+      "uncolored_survivors": 2208,
+      "colored_types_left": 1024,
+      "per_augmentation": [
+        {
+          "augmentation": [
+            -44,
+            -25
+          ],
+          "surviving_allocations": 0
+        },
+        {
+          "augmentation": [
+            -44,
+            25
+          ],
+          "surviving_allocations": 0
+        },
+        {
+          "augmentation": [
+            -40,
+            -31
+          ],
+          "surviving_allocations": 0
+        },
+        {
+          "augmentation": [
+            -40,
+            31
+          ],
+          "surviving_allocations": 0
+        },
+        {
+          "augmentation": [
+            40,
+            -31
+          ],
+          "surviving_allocations": 0
+        },
+        {
+          "augmentation": [
+            40,
+            31
+          ],
+          "surviving_allocations": 0
+        },
+        {
+          "augmentation": [
+            44,
+            -25
+          ],
+          "surviving_allocations": 0
+        },
+        {
+          "augmentation": [
+            44,
+            25
+          ],
+          "surviving_allocations": 0
+        }
+      ]
+    },
+    {
+      "bound": 100,
+      "uncolored_survivors": 2208,
+      "colored_types_left": 1024,
+      "per_augmentation": [
+        {
+          "augmentation": [
+            -44,
+            -25
+          ],
+          "surviving_allocations": 0
+        },
+        {
+          "augmentation": [
+            -44,
+            25
+          ],
+          "surviving_allocations": 0
+        },
+        {
+          "augmentation": [
+            -40,
+            -31
+          ],
+          "surviving_allocations": 0
+        },
+        {
+          "augmentation": [
+            -40,
+            31
+          ],
+          "surviving_allocations": 0
+        },
+        {
+          "augmentation": [
+            40,
+            -31
+          ],
+          "surviving_allocations": 0
+        },
+        {
+          "augmentation": [
+            40,
+            31
+          ],
+          "surviving_allocations": 0
+        },
+        {
+          "augmentation": [
+            44,
+            -25
+          ],
+          "surviving_allocations": 0
+        },
+        {
+          "augmentation": [
+            44,
+            25
+          ],
+          "surviving_allocations": 0
+        }
+      ]
+    }
+  ],
+  "representatives": [
+    {
+      "p": 13,
+      "rep": 0,
+      "nodes": 14907,
+      "vectors": 244
+    },
+    {
+      "p": 13,
+      "rep": 1,
+      "nodes": 11435,
+      "vectors": 224
+    },
+    {
+      "p": 13,
+      "rep": 2,
+      "nodes": 15265,
+      "vectors": 288
+    },
+    {
+      "p": 13,
+      "rep": 3,
+      "nodes": 14043,
+      "vectors": 264
+    },
+    {
+      "p": 13,
+      "rep": 4,
+      "nodes": 10577,
+      "vectors": 236
+    },
+    {
+      "p": 13,
+      "rep": 5,
+      "nodes": 12275,
+      "vectors": 240
+    },
+    {
+      "p": 13,
+      "rep": 6,
+      "nodes": 11329,
+      "vectors": 308
+    },
+    {
+      "p": 13,
+      "rep": 7,
+      "nodes": 6323,
+      "vectors": 356
+    },
+    {
+      "p": 13,
+      "rep": 8,
+      "nodes": 8663,
+      "vectors": 304
+    },
+    {
+      "p": 13,
+      "rep": 9,
+      "nodes": 11333,
+      "vectors": 216
+    },
+    {
+      "p": 13,
+      "rep": 10,
+      "nodes": 10829,
+      "vectors": 276
+    },
+    {
+      "p": 13,
+      "rep": 11,
+      "nodes": 10141,
+      "vectors": 240
+    },
+    {
+      "p": 13,
+      "rep": 12,
+      "nodes": 9061,
+      "vectors": 248
+    },
+    {
+      "p": 13,
+      "rep": 13,
+      "nodes": 11601,
+      "vectors": 212
+    },
+    {
+      "p": 13,
+      "rep": 14,
+      "nodes": 12741,
+      "vectors": 244
+    },
+    {
+      "p": 13,
+      "rep": 15,
+      "nodes": 17485,
+      "vectors": 204
+    },
+    {
+      "p": 13,
+      "rep": 17,
+      "nodes": 9785,
+      "vectors": 180
+    },
+    {
+      "p": 13,
+      "rep": 18,
+      "nodes": 19329,
+      "vectors": 224
+    },
+    {
+      "p": 13,
+      "rep": 19,
+      "nodes": 18287,
+      "vectors": 156
+    },
+    {
+      "p": 13,
+      "rep": 21,
+      "nodes": 8187,
+      "vectors": 232
+    },
+    {
+      "p": 13,
+      "rep": 23,
+      "nodes": 9513,
+      "vectors": 228
+    },
+    {
+      "p": 13,
+      "rep": 28,
+      "nodes": 3209,
+      "vectors": 736
+    },
+    {
+      "p": 13,
+      "rep": 33,
+      "nodes": 11897,
+      "vectors": 208
+    },
+    {
+      "p": 13,
+      "rep": 34,
+      "nodes": 8501,
+      "vectors": 236
+    },
+    {
+      "p": 13,
+      "rep": 35,
+      "nodes": 18155,
+      "vectors": 172
+    },
+    {
+      "p": 13,
+      "rep": 38,
+      "nodes": 9169,
+      "vectors": 232
+    },
+    {
+      "p": 13,
+      "rep": 41,
+      "nodes": 9081,
+      "vectors": 264
+    },
+    {
+      "p": 13,
+      "rep": 42,
+      "nodes": 11873,
+      "vectors": 276
+    },
+    {
+      "p": 13,
+      "rep": 43,
+      "nodes": 7591,
+      "vectors": 256
+    },
+    {
+      "p": 13,
+      "rep": 46,
+      "nodes": 15775,
+      "vectors": 204
+    },
+    {
+      "p": 13,
+      "rep": 47,
+      "nodes": 11027,
+      "vectors": 176
+    },
+    {
+      "p": 13,
+      "rep": 66,
+      "nodes": 11035,
+      "vectors": 208
+    },
+    {
+      "p": 13,
+      "rep": 67,
+      "nodes": 8409,
+      "vectors": 240
+    },
+    {
+      "p": 13,
+      "rep": 70,
+      "nodes": 10301,
+      "vectors": 268
+    },
+    {
+      "p": 13,
+      "rep": 71,
+      "nodes": 9883,
+      "vectors": 304
+    },
+    {
+      "p": 13,
+      "rep": 74,
+      "nodes": 8963,
+      "vectors": 180
+    },
+    {
+      "p": 13,
+      "rep": 86,
+      "nodes": 10441,
+      "vectors": 228
+    },
+    {
+      "p": 13,
+      "rep": 87,
+      "nodes": 13427,
+      "vectors": 204
+    },
+    {
+      "p": 13,
+      "rep": 91,
+      "nodes": 17441,
+      "vectors": 212
+    },
+    {
+      "p": 13,
+      "rep": 102,
+      "nodes": 11775,
+      "vectors": 220
+    },
+    {
+      "p": 13,
+      "rep": 106,
+      "nodes": 9623,
+      "vectors": 256
+    },
+    {
+      "p": 13,
+      "rep": 110,
+      "nodes": 14875,
+      "vectors": 164
+    },
+    {
+      "p": 13,
+      "rep": 118,
+      "nodes": 12383,
+      "vectors": 220
+    },
+    {
+      "p": 13,
+      "rep": 119,
+      "nodes": 16361,
+      "vectors": 236
+    },
+    {
+      "p": 13,
+      "rep": 122,
+      "nodes": 14387,
+      "vectors": 200
+    },
+    {
+      "p": 13,
+      "rep": 123,
+      "nodes": 11607,
+      "vectors": 264
+    },
+    {
+      "p": 13,
+      "rep": 126,
+      "nodes": 16053,
+      "vectors": 212
+    },
+    {
+      "p": 13,
+      "rep": 127,
+      "nodes": 14063,
+      "vectors": 164
+    },
+    {
+      "p": 13,
+      "rep": 192,
+      "nodes": 16073,
+      "vectors": 184
+    },
+    {
+      "p": 13,
+      "rep": 196,
+      "nodes": 12071,
+      "vectors": 212
+    },
+    {
+      "p": 13,
+      "rep": 209,
+      "nodes": 12113,
+      "vectors": 256
+    },
+    {
+      "p": 13,
+      "rep": 213,
+      "nodes": 14729,
+      "vectors": 204
+    },
+    {
+      "p": 13,
+      "rep": 215,
+      "nodes": 11103,
+      "vectors": 236
+    },
+    {
+      "p": 13,
+      "rep": 217,
+      "nodes": 7231,
+      "vectors": 308
+    },
+    {
+      "p": 13,
+      "rep": 228,
+      "nodes": 13629,
+      "vectors": 232
+    },
+    {
+      "p": 13,
+      "rep": 424,
+      "nodes": 9919,
+      "vectors": 36
+    },
+    {
+      "p": 197,
+      "rep": 0,
+      "nodes": 12977,
+      "vectors": 212
+    },
+    {
+      "p": 197,
+      "rep": 1,
+      "nodes": 8571,
+      "vectors": 396
+    },
+    {
+      "p": 197,
+      "rep": 2,
+      "nodes": 3205,
+      "vectors": 736
+    },
+    {
+      "p": 197,
+      "rep": 4,
+      "nodes": 16491,
+      "vectors": 192
+    },
+    {
+      "p": 197,
+      "rep": 5,
+      "nodes": 22283,
+      "vectors": 216
+    },
+    {
+      "p": 197,
+      "rep": 7,
+      "nodes": 18329,
+      "vectors": 220
+    },
+    {
+      "p": 197,
+      "rep": 9,
+      "nodes": 13547,
+      "vectors": 164
+    },
+    {
+      "p": 197,
+      "rep": 12,
+      "nodes": 13477,
+      "vectors": 176
+    },
+    {
+      "p": 197,
+      "rep": 13,
+      "nodes": 13281,
+      "vectors": 212
+    },
+    {
+      "p": 197,
+      "rep": 14,
+      "nodes": 20315,
+      "vectors": 204
+    },
+    {
+      "p": 197,
+      "rep": 15,
+      "nodes": 13505,
+      "vectors": 192
+    },
+    {
+      "p": 197,
+      "rep": 17,
+      "nodes": 12817,
+      "vectors": 204
+    },
+    {
+      "p": 197,
+      "rep": 19,
+      "nodes": 11953,
+      "vectors": 240
+    },
+    {
+      "p": 197,
+      "rep": 20,
+      "nodes": 10987,
+      "vectors": 204
+    },
+    {
+      "p": 197,
+      "rep": 21,
+      "nodes": 14689,
+      "vectors": 200
+    },
+    {
+      "p": 197,
+      "rep": 23,
+      "nodes": 14471,
+      "vectors": 208
+    },
+    {
+      "p": 197,
+      "rep": 25,
+      "nodes": 9881,
+      "vectors": 224
+    },
+    {
+      "p": 197,
+      "rep": 27,
+      "nodes": 12773,
+      "vectors": 236
+    },
+    {
+      "p": 197,
+      "rep": 28,
+      "nodes": 9801,
+      "vectors": 244
+    },
+    {
+      "p": 197,
+      "rep": 29,
+      "nodes": 10999,
+      "vectors": 240
+    },
+    {
+      "p": 197,
+      "rep": 30,
+      "nodes": 11527,
+      "vectors": 228
+    },
+    {
+      "p": 197,
+      "rep": 31,
+      "nodes": 14809,
+      "vectors": 184
+    },
+    {
+      "p": 197,
+      "rep": 37,
+      "nodes": 11711,
+      "vectors": 228
+    },
+    {
+      "p": 197,
+      "rep": 39,
+      "nodes": 13669,
+      "vectors": 228
+    },
+    {
+      "p": 197,
+      "rep": 41,
+      "nodes": 8983,
+      "vectors": 180
+    },
+    {
+      "p": 197,
+      "rep": 44,
+      "nodes": 8457,
+      "vectors": 248
+    },
+    {
+      "p": 197,
+      "rep": 45,
+      "nodes": 15305,
+      "vectors": 204
+    },
+    {
+      "p": 197,
+      "rep": 46,
+      "nodes": 12141,
+      "vectors": 208
+    },
+    {
+      "p": 197,
+      "rep": 47,
+      "nodes": 12267,
+      "vectors": 188
+    },
+    {
+      "p": 197,
+      "rep": 49,
+      "nodes": 8715,
+      "vectors": 368
+    },
+    {
+      "p": 197,
+      "rep": 52,
+      "nodes": 17489,
+      "vectors": 200
+    },
+    {
+      "p": 197,
+      "rep": 53,
+      "nodes": 14577,
+      "vectors": 228
+    },
+    {
+      "p": 197,
+      "rep": 55,
+      "nodes": 10675,
+      "vectors": 184
+    },
+    {
+      "p": 197,
+      "rep": 60,
+      "nodes": 13105,
+      "vectors": 208
+    },
+    {
+      "p": 197,
+      "rep": 62,
+      "nodes": 16071,
+      "vectors": 220
+    },
+    {
+      "p": 197,
+      "rep": 72,
+      "nodes": 13661,
+      "vectors": 212
+    },
+    {
+      "p": 197,
+      "rep": 73,
+      "nodes": 9277,
+      "vectors": 244
+    },
+    {
+      "p": 197,
+      "rep": 76,
+      "nodes": 17055,
+      "vectors": 164
+    },
+    {
+      "p": 197,
+      "rep": 77,
+      "nodes": 13671,
+      "vectors": 212
+    },
+    {
+      "p": 197,
+      "rep": 79,
+      "nodes": 12549,
+      "vectors": 212
+    },
+    {
+      "p": 197,
+      "rep": 81,
+      "nodes": 12835,
+      "vectors": 228
+    },
+    {
+      "p": 197,
+      "rep": 85,
+      "nodes": 10949,
+      "vectors": 232
+    },
+    {
+      "p": 197,
+      "rep": 89,
+      "nodes": 18217,
+      "vectors": 188
+    },
+    {
+      "p": 197,
+      "rep": 92,
+      "nodes": 11397,
+      "vectors": 248
+    },
+    {
+      "p": 197,
+      "rep": 93,
+      "nodes": 8571,
+      "vectors": 240
+    },
+    {
+      "p": 197,
+      "rep": 95,
+      "nodes": 10709,
+      "vectors": 288
+    },
+    {
+      "p": 197,
+      "rep": 104,
+      "nodes": 12761,
+      "vectors": 216
+    },
+    {
+      "p": 197,
+      "rep": 105,
+      "nodes": 12445,
+      "vectors": 204
+    },
+    {
+      "p": 197,
+      "rep": 108,
+      "nodes": 11857,
+      "vectors": 196
+    },
+    {
+      "p": 197,
+      "rep": 119,
+      "nodes": 9223,
+      "vectors": 36
+    },
+    {
+      "p": 197,
+      "rep": 155,
+      "nodes": 10961,
+      "vectors": 204
+    },
+    {
+      "p": 197,
+      "rep": 158,
+      "nodes": 12897,
+      "vectors": 264
+    },
+    {
+      "p": 197,
+      "rep": 159,
+      "nodes": 12591,
+      "vectors": 184
+    },
+    {
+      "p": 197,
+      "rep": 174,
+      "nodes": 7413,
+      "vectors": 308
+    },
+    {
+      "p": 197,
+      "rep": 190,
+      "nodes": 11419,
+      "vectors": 220
+    },
+    {
+      "p": 197,
+      "rep": 219,
+      "nodes": 7717,
+      "vectors": 256
+    }
+  ],
+  "cpu_seconds": 60.94677,
+  "max_rss_macos_bytes": 159666176,
+  "limits": {
+    "cpu": 90,
+    "wall": 120
+  },
+  "isolated": true,
+  "interpreter": "venv python (path removed)",
+  "basis_sha256": "d04df8863e0badeb5c48fcec1adb9498e34152af055fccee285f244eb497d324",
+  "script_sha256": "d3683edf9d78db34b22475c43eb2c58a39e18cbb97ba3c0c850e0c58fb082cfd",
+  "complete_benchmark_sha256": "a53f8992292b19edb5bd3c71ca1bbce59e0bfd9ece65f6734d3a45f1b9cde8bd"
+}

@@ -1,0 +1,87 @@
+{
+ "q": 7929,
+ "t": 3965,
+ "factorization": {
+  "3": 2,
+  "881": 1
+ },
+ "source_attempts": [
+  {
+   "P": 5,
+   "fiber": 793,
+   "global_group_size": 2,
+   "lane": "prime_subtorus_degree_2",
+   "result": [
+    false,
+    "component_sat"
+   ],
+   "cpu_seconds": 0.08211400000000424,
+   "log": "  [period-lattice] q=7929 ell=5 d=2 predicted points~14,184 cap=250,000 coordinate-box outer=181\n  [period-lattice] reduced caps=[90, 80] solve=y0 head states=161\n  [period-lattice] q=7929 ell=5 cross-check OK (14,185 embedding points)\n  [period-square] q=7929 ell=5 sorting 14,185 square keys\n"
+  },
+  {
+   "P": 13,
+   "fiber": 305,
+   "global_group_size": 6,
+   "lane": "prime_subtorus_degree_2",
+   "result": [
+    true,
+    "no_side_vector"
+   ],
+   "cpu_seconds": 0.03450600000000037,
+   "log": "  [period-lattice] q=7929 ell=13 d=2 predicted points~8,796 cap=250,000 coordinate-box outer=181\n  [period-lattice] reduced caps=[90, 50] solve=y0 head states=101\n  [period-lattice] q=7929 ell=13 cross-check OK (8,799 embedding points)\n  [period-square] q=7929 ell=13 sorting 8,799 square keys\n"
+  }
+ ],
+ "local_primepower_nodes": [
+  {
+   "q": 7929,
+   "ell": 5,
+   "exponent": 1,
+   "P": 5,
+   "fiber": 793,
+   "local_group_size": 2,
+   "phi": 4,
+   "full": false,
+   "size_obstruction": false,
+   "ray_obstruction": false,
+   "ray_witnesses": null,
+   "necessary_status": "NOT_APPLICABLE",
+   "mechanism": "local_primepower_proper_subgroup"
+  },
+  {
+   "q": 7929,
+   "ell": 13,
+   "exponent": 1,
+   "P": 13,
+   "fiber": 305,
+   "local_group_size": 6,
+   "phi": 12,
+   "full": false,
+   "size_obstruction": false,
+   "ray_obstruction": false,
+   "ray_witnesses": null,
+   "necessary_status": "NOT_APPLICABLE",
+   "mechanism": "local_primepower_proper_subgroup"
+  },
+  {
+   "q": 7929,
+   "ell": 61,
+   "exponent": 1,
+   "P": 61,
+   "fiber": 65,
+   "local_group_size": 10,
+   "phi": 60,
+   "full": false,
+   "size_obstruction": false,
+   "ray_obstruction": false,
+   "ray_witnesses": null,
+   "necessary_status": "NOT_APPLICABLE",
+   "mechanism": "local_primepower_proper_subgroup"
+  }
+ ],
+ "status": "EXCLUDED",
+ "evidence": {
+  "kind": "evaluated_source_predicate",
+  "P": 13,
+  "mechanism": "no_side_vector"
+ }
+}

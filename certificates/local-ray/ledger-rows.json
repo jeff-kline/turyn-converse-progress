@@ -1,0 +1,165 @@
+{
+ "909": {
+  "q": 909,
+  "t": 455,
+  "factorization": {
+   "3": 2,
+   "101": 1
+  },
+  "status": "EXCLUDED",
+  "evidence": {
+   "kind": "local_primepower",
+   "node": {
+    "q": 909,
+    "ell": 7,
+    "exponent": 1,
+    "P": 7,
+    "fiber": 65,
+    "local_group_size": 6,
+    "phi": 6,
+    "full": true,
+    "size_obstruction": false,
+    "ray_obstruction": true,
+    "ray_witnesses": [],
+    "necessary_status": "EXCLUDED",
+    "mechanism": "local_primepower_no_gaussian_ray"
+   }
+  }
+ },
+ "1845": {
+  "q": 1845,
+  "t": 923,
+  "factorization": {
+   "3": 2,
+   "5": 1,
+   "41": 1
+  },
+  "status": "EXCLUDED",
+  "evidence": {
+   "kind": "self_conjugacy_obstruction"
+  }
+ },
+ "6137": {
+  "q": 6137,
+  "t": 3069,
+  "factorization": {
+   "17": 1,
+   "19": 2
+  },
+  "status": "EXCLUDED",
+  "evidence": {
+   "kind": "local_primepower",
+   "node": {
+    "q": 6137,
+    "ell": 11,
+    "exponent": 1,
+    "P": 11,
+    "fiber": 279,
+    "local_group_size": 10,
+    "phi": 10,
+    "full": true,
+    "size_obstruction": false,
+    "ray_obstruction": true,
+    "ray_witnesses": [],
+    "necessary_status": "EXCLUDED",
+    "mechanism": "local_primepower_no_gaussian_ray"
+   }
+  }
+ },
+ "7461": {
+  "q": 7461,
+  "t": 3731,
+  "factorization": {
+   "3": 2,
+   "829": 1
+  },
+  "status": "EXCLUDED",
+  "evidence": {
+   "kind": "local_primepower",
+   "node": {
+    "q": 7461,
+    "ell": 7,
+    "exponent": 1,
+    "P": 7,
+    "fiber": 533,
+    "local_group_size": 6,
+    "phi": 6,
+    "full": true,
+    "size_obstruction": false,
+    "ray_obstruction": true,
+    "ray_witnesses": [],
+    "necessary_status": "EXCLUDED",
+    "mechanism": "local_primepower_no_gaussian_ray"
+   }
+  }
+ },
+ "9245": {
+  "q": 9245,
+  "t": 4623,
+  "factorization": {
+   "5": 1,
+   "43": 2
+  },
+  "status": "EXCLUDED",
+  "evidence": {
+   "kind": "local_primepower",
+   "node": {
+    "q": 9245,
+    "ell": 23,
+    "exponent": 1,
+    "P": 23,
+    "fiber": 201,
+    "local_group_size": 22,
+    "phi": 22,
+    "full": true,
+    "size_obstruction": false,
+    "ray_obstruction": true,
+    "ray_witnesses": [],
+    "necessary_status": "EXCLUDED",
+    "mechanism": "local_primepower_no_gaussian_ray"
+   }
+  }
+ },
+ "8865": {
+  "q": 8865,
+  "t": 4433,
+  "factorization": {
+   "3": 2,
+   "5": 1,
+   "197": 1
+  },
+  "status": "EXCLUDED",
+  "evidence": {
+   "kind": "independently_audited_followup",
+   "source": "pursuit-01/RESULTS.md"
+  }
+ },
+ "8905": {
+  "q": 8905,
+  "t": 4453,
+  "factorization": {
+   "5": 1,
+   "13": 1,
+   "137": 1
+  },
+  "status": "EXCLUDED",
+  "evidence": {
+   "kind": "independently_audited_followup",
+   "source": "pursuit-02/RESULTS.md"
+  }
+ },
+ "9265": {
+  "q": 9265,
+  "t": 4633,
+  "factorization": {
+   "5": 1,
+   "17": 1,
+   "109": 1
+  },
+  "status": "EXCLUDED",
+  "evidence": {
+   "kind": "independently_audited_followup",
+   "source": "pursuit-01/RESULTS.md"
+  }
+ }
+}
